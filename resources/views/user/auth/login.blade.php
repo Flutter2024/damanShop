@@ -30,7 +30,7 @@
                                 <input class="form-control  @if($errors->has('email')) is-invalid @endif" name="email"
                                        type="email"
                                        id="emailaddress" required=""
-                                       value="{{ old('email') ?? "user@demo.com"}}"
+                                       value=""
                                        placeholder="Enter your email"/>
 
                                 @if($errors->has('email'))
@@ -48,7 +48,7 @@
                                 <div
                                     class="input-group input-group-merge @if($errors->has('password')) is-invalid @endif">
                                     <input class="form-control @if($errors->has('password')) is-invalid @endif"
-                                           name="password" type="password" required="" value="password"
+                                           name="password" type="password" required="" value=""
                                            id="password" placeholder="Enter your password"/>
                                     <div class="input-group-append" data-password="false">
                                         <div class="input-group-text">
