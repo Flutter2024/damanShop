@@ -92,10 +92,6 @@
 
             </ul>
 
-            <div class="text-center mt-3 menu-title"  style="pointer-events: all;">
-                <a href="https://codecanyon.net/item/emall-multi-vendor-ecommerce-full-app/29955830" target="_blank"
-                   class="text-center btn btn-primary btn-sm">BUY NOW</a>
-            </div>
         </div>
         <!-- End Sidebar -->
 
